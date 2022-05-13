@@ -5,7 +5,7 @@
   "scripts": {
     "start": "wrangler dev --local",
     "publish": "wrangler publish",
-    "parse-wiki": "deno run --allow-net --allow-read --allow-write ./scripts/parse-wiki.ts"
+    "scrape-wiki": "deno run --allow-net --allow-read --allow-write ./scripts/scrape-wiki.ts"
   },
   "dependencies": {
     "preact": "^10.7.2",
