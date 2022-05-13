@@ -14,3 +14,6 @@ jobs:
 
       - name: 🚀 Publish
         uses: cloudflare/wrangler-action@2.0.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          wranglerVersion: "2.0.3"
