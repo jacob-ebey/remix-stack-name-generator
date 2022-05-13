@@ -113,6 +113,15 @@ function Document({ genre, genreSlug }: { genre: string; genreSlug: string }) {
               />
             </pre>
           </article>
+          <footer>
+            <a
+              href="https://github.com/jacob-ebey/remix-stack-name-generator/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source code
+            </a>
+          </footer>
         </main>
       </body>
     </html>
